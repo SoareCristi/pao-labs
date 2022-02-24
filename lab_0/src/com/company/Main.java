@@ -6,9 +6,36 @@ import com.company.models.Teacher;
 
 public class Main {
 
+    //psvm pentru public static void main
     public static void main(String[] args) {
 	Student student = new Student();
     Teacher teacher = new Teacher();
-    System.out.println(":(");
+    System.out.println(":("); //sout
+
+    // tipuri de date
+    // numerice
+    // byte, short, int, long, float, double
+    long myLong = 100_000_000_000L;
+    float myFloat = 2.14F;
+    double myDouble = 2.14;
+    float myFloat2 = (float)2.14;
+    // alfanumerice
+
+    char c = 'a';
+    //char d = 'asdb';
+    String myString = "asdb";
+
+    // other
+
+    boolean f = true;
+    boolean t = false;
+
+
+    // Operatori
+    // ++ --
+
+
+
+
     }
 }
