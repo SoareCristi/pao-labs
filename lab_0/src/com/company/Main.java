@@ -31,11 +31,40 @@ public class Main {
     boolean t = false;
 
 
-    // Operatori
-    // ++ --
+    //Operatori
 
 
+    // Decizionale
+    if (2 == 2){
+        System.out.println("ASDF");
+    } else if (2 == 3) {
+        System.out.println();
+    } else {
+        System.out.println();
+    }
 
+    switch(1){
+        case 1:
+            System.out.println();
+            break;
+        case 0:
+            System.out.println();
+            break;
+        default:
+            System.out.println();
+            break;
+    }
+
+    // Repetitive
+    for (int i = 0; i < 10; i++){
+        System.out.println();
+        break;
+    }
+
+    while(f){
+        System.out.println();
+        f = false;
+    }
 
     }
 }
